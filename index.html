@@ -178,7 +178,7 @@
 </div>
 
 <!-- About container -->
- <div class="container-fluid py-5 text-black" style="background-color: rgb(233, 232, 240);">
+<div class="container-fluid py-5 text-black" style="background-color: rgb(233, 232, 240);">
     <div class="container">
         <h1 class="text-center display-2 mb-3">ABOUT</h1>
         <h1 class="display-4">Opening Hours</h1>
@@ -202,17 +202,43 @@
       <div class="col-lg-9 col-md-8 col-sm-12">
         <p class="fs-2"><b>The Chef?</b> Mr. Loro himself. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       </div>
-      <div class="col-lg-3 col-md-4 col-sm-12 text-end">
-        <img src="assets/chef.webp" style="width:200px" class="rounded-circle" alt="Chef">
-      </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 text-end">
+            <img src="assets/chef.webp" style="width:200px" class="rounded-circle" alt="Chef">
+        </div>
     </div>
+<!-- Contact -->
+<div class="container-fluid bg-secondary text-white py-5 fs-2" id="contact">
+    <div class="container">
+      <h1 class="text-center display-2 mb-5">CONTACT</h1>
+      <p >Find us at some address at some place or call us at 05050515-122330</p>
+      <p>
+        <span class="badge bg-dark">FYI!</span>
+        We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste.
+      </p>
+      <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="mb-3">
+          <input type="text" class="form-control extra-large" placeholder="Name" required name="Name">
+        </div>
+        <div class="mb-3">
+          <input type="number" class="form-control extra-large" placeholder="How many people" required name="People">
+        </div>
+        <div class="mb-3">
+          <input type="datetime-local" class="form-control extra-large" placeholder="Date and time" required name="date" value="2025-11-16T20:00">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control extra-large" placeholder="Message | Special requirements" required name="Message">
+        </div>
+        <div class="mb-3">
+          <button type="submit" class="btn btn-light btn-lg btn-block fs-2">SEND MESSAGE</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
 
     <p class="fs-2 text-center">We are awaiting to serve you!</p>
 
-    
-  </div>
-    </div>
- </div>
     <script src="script.js"></script>
 </body>
 </html>
